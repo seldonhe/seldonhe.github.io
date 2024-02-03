@@ -1,81 +1,148 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Optimized, Dynamic & Transformative HR Strategy for CanadaRetail
+description: Linear Regression/Machine Learning/Random Forest
+img: assets/img/ubc_campus/ubc_robson-square.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">Executive Summary</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Despite being a key player in the competitive Canadian retail market, CanadaRetail struggles to attract and retain top talent, especially among sales associates, who are vital for revenue generation and customer interaction. High turnover rates and a lack of a strong employer brand are impeding the company's ability to achieve its strategic goals.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The purpose of this project is to devise actionable, evidence-based HR strategies within a limited budget that will strengthen CanadaRetail's employer brand. This will involve enhancing recruitment, selection, training, development, compensation, and performance management practices. The aim is to attract and retain talented sales associates who align with the company's strategic objectives, thereby creating a sustainable competitive advantage.
+
+<div class="row">Key Take-aways</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project_img/1/0001.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project_img/1/0002.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/1/0003.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/1/0004.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/1/0005.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<div class="row">Codes</div>
 
 {% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+```python
+# Random Forest 
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.model_selection import train_test_split
+
+# Splitting the data
+X_train, X_test, y_train, y_test = train_test_split(predictors, target, test_size=0.3, random_state=42)
+
+# Training the model
+model = RandomForestClassifier(random_state=42)
+model.fit(X_train, y_train)
+
+# Making predictions and evaluating the model
+y_pred = model.predict(X_test)
+print(classification_report(y_test, y_pred))
+cm = confusion_matrix(y_test, y_pred)
+
+# Visualizing the confusion matrix
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.show()
+```
+
+```python
+# Linear Regression
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.metrics import mean_squared_error, r2_score
+
+# Splitting the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Training the model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Making predictions
+y_pred = model.predict(X_test)
+
+# Evaluating the model
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+print(mse, r2)
+#0.32300445993148585 0.3747974569505925
+
+# Plotting actual vs predicted values
+plt.figure(figsize=(6, 6))
+plt.scatter(y_test, y_pred, alpha=0.5)
+plt.xlabel('Actual Values')
+plt.ylabel('Predicted Values')
+plt.title('Actual vs Predicted Values')
+
+# Plotting a reference line for perfect predictions
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'k--', lw=2)
+plt.show()
+```
+
+```python
+# OLS: Tenure vs Unitmonth_hrlyrate 
+
+import statsmodels.api as sm
+
+# After removing outliers
+X = grouped_data['unitmonth_hrlyrate']
+y = grouped_data['tenure']
+
+# Adding a constant to the model (for the intercept)
+X = sm.add_constant(X)
+
+# Fitting the model
+model = sm.OLS(y, X).fit()
+print(model.summary())
+
+# OLS: Voluntary_turnover vs Inequality 
+
+from statsmodels.formula.api import ols
+
+data = store
+# Calculate the inequality metric
+data['inequality_metric'] = (abs(data['rmgrwhite'] - data['unitmonth_white']) + 
+                           abs(data['rmgrfemale'] - data['unitmonth_female']))
+
+# Prepare the data for hypothesis testing
+data['inequality_metric'] = pd.qcut(data['inequality_metric'], q=2, labels=['High Equality', 'Low Equality'])
+
+# OLS regression
+model = ols('Voluntary_turnover ~ C(inequality_metric)', data=data).fit()
+results_summary = model.summary()
+print(results_summary)
 ```
 
 {% endraw %}
+
+<div class="row">Other Team Members:</div>
+
+<a href = "https://www.linkedin.com/in/qi-li-51b92227a/">Qi Li</a>
+<a href = "https://www.linkedin.com/in/shunyiyao/">Shunyi Yao</a>
+<a href = "https://www.linkedin.com/in/christi-mariam/">Christi Mariam Denny</a>
