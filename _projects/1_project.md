@@ -8,41 +8,71 @@ category: work
 related_publications: false
 ---
 
-<div class="row">Executive Summary</div>
+<div class="container">
+<h2>Executive Summary</h2>
 
 Despite being a key player in the competitive Canadian retail market, CanadaRetail struggles to attract and retain top talent, especially among sales associates, who are vital for revenue generation and customer interaction. High turnover rates and a lack of a strong employer brand are impeding the company's ability to achieve its strategic goals.
 
 The purpose of this project is to devise actionable, evidence-based HR strategies within a limited budget that will strengthen CanadaRetail's employer brand. This will involve enhancing recruitment, selection, training, development, compensation, and performance management practices. The aim is to attract and retain talented sales associates who align with the company's strategic objectives, thereby creating a sustainable competitive advantage.
-
-<div class="row">Key Take-aways</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_img/1/0001.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_img/1/0002.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_img/1/0003.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_img/1/0004.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_img/1/0005.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 
-<div class="row">Codes</div>
+<div class="container">
+<h2>Key Take-aways</h2>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0001.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0002.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0003.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0004.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0005.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0006.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0007.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0008.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0009.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_img/BA550/0010.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</div>
+
+<div class="container">
+<h2>Codes</h2>
 
 {% raw %}
 
@@ -141,8 +171,17 @@ print(results_summary)
 
 {% endraw %}
 
-<div class="row">Other Team Members:</div>
+</div>
 
-<a href = "https://www.linkedin.com/in/qi-li-51b92227a/">Qi Li</a>
-<a href = "https://www.linkedin.com/in/shunyiyao/">Shunyi Yao</a>
-<a href = "https://www.linkedin.com/in/christi-mariam/">Christi Mariam Denny</a>
+<div class="container">
+
+<h2>Other Team Members</h2>
+    <div class="row">
+        <div class="col-sm-4">
+        <a href = "https://www.linkedin.com/in/qi-li-51b92227a/">Qi Li</a></div>
+        <div class="col-sm-4">
+        <a href = "https://www.linkedin.com/in/shunyiyao/">Shunyi Yao</a></div>
+        <div class="col-sm-4">
+        <a href = "https://www.linkedin.com/in/christi-mariam/">Christi Mariam Denny</a></div>
+    </div>
+</div>
