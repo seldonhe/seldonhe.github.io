@@ -8,15 +8,18 @@ category: work
 related_publications: false
 ---
 
-<div class="container">
+<div class="container-fluid mt-3 md-3">
+
 <h2>Executive Summary</h2>
 
-Despite being a key player in the competitive Canadian retail market, CanadaRetail struggles to attract and retain top talent, especially among sales associates, who are vital for revenue generation and customer interaction. High turnover rates and a lack of a strong employer brand are impeding the company's ability to achieve its strategic goals.
+<p>Despite being a key player in the competitive Canadian retail market, CanadaRetail struggles to attract and retain top talent, especially among sales associates, who are vital for revenue generation and customer interaction. High turnover rates and a lack of a strong employer brand are impeding the company's ability to achieve its strategic goals.</p>
 
-The purpose of this project is to devise actionable, evidence-based HR strategies within a limited budget that will strengthen CanadaRetail's employer brand. This will involve enhancing recruitment, selection, training, development, compensation, and performance management practices. The aim is to attract and retain talented sales associates who align with the company's strategic objectives, thereby creating a sustainable competitive advantage.
+<p>The purpose of this project is to devise actionable, evidence-based HR strategies within a limited budget that will strengthen CanadaRetail's employer brand. This will involve enhancing recruitment, selection, training, development, compensation, and performance management practices. The aim is to attract and retain talented sales associates who align with the company's strategic objectives, thereby creating a sustainable competitive advantage.</p>
+
 </div>
 
-<div class="container">
+<div class="container-fluid mt-3 md-3">
+
 <h2>Key Take-aways</h2>
 
 <div class="row">
@@ -71,7 +74,8 @@ The purpose of this project is to devise actionable, evidence-based HR strategie
 </div>
 </div>
 
-<div class="container">
+<div class = "mt-3 md-3">
+
 <h2>Codes</h2>
 
 {% raw %}
@@ -173,9 +177,9 @@ print(results_summary)
 
 </div>
 
-<div class="container">
+<div class="container-fluid mt-3 md-3">
 
-<h2>Other Team Members</h2>
+<h3>Other Team Members</h3>
     <div class="row">
         <div class="col-sm-4">
         <a href = "https://www.linkedin.com/in/qi-li-51b92227a/">Qi Li</a></div>

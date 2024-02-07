@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - seldonhe
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - seldonhe/Data-Driven-Marketing-SocialBuzz
+  - seldonhe/YVR_Energy_Forecast
+  - seldonhe/Loan_Default_Prediction
+
