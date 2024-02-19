@@ -60,8 +60,10 @@ related_publications: false
 </div>
 
 <div class="container-fluid mt-3 md-3">
-
 <h2>Codes</h2>
+</div>
+
+<div>
 
 <embed type="text/html" src="https://nbviewer.org/github/seldonhe/Data-Driven-Marketing-SocialBuzz/blob/e939276ba036dad701cb6952dccdedb72971b192/Capstone%20Project%20Jupyter%20Notebook.ipynb">
 

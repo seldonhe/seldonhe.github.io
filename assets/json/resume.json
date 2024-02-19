@@ -5,7 +5,7 @@
     "image": "",
     "email": "seldon.he@ubc.ca",
     "url": "https://seldonhe.github.io/",
-    "personal motto": "Per aspera ad astra.",
+    "Motto": "Per aspera ad astra.",
     "location": {
       "address": "2111 Lower Mall",
       "postalCode": "V6T 1Z4",
@@ -27,7 +27,7 @@
       "position": "Teaching Assistant",
       "url": "https://www.sauder.ubc.ca",
       "startDate": "2023-09-01",
-      "endDate": "Present",
+      "endDate": "",
       "summary": "Delivered impactful learning experiences by facilitating class discussions and holding office hours, supported 200+ students (5 sections, 2 terms) and enhanced student comprehension and engagement."
     },
     {
@@ -37,7 +37,7 @@
       "startDate": "2022-02-07",
       "endDate": "2023-07-03",
       "summary": "Implemented robust risk control practices, orchestrated credit lines exceeding 1 billion CNY, and bolstering interest-earning assets of 0.4 billion CNY.",
-      "highlights": ["Business Analysis, Financial Modeling, Risk Management"]
+      "highlights": ["Business Analysis", "Financial Modeling", "Risk Management"]
     },
     {
       "name": "Ernst & Young (EY)",
@@ -46,7 +46,7 @@
       "startDate": "2020-10-26",
       "endDate": "2022-01-28",
       "summary": "Specialized in data analytics, fraud detection, and corporate compliance and governance, helped clients to investigate facts, manage regulatory challenges, and improve performance with business intelligence technologies.",
-      "highlights": ["Data Analysis, Data Visualization, Risk Advisory, IT Due Diligence"]
+      "highlights": ["Data Analysis", "Data Visualization", "Risk Advisory", "IT Due Diligence"]
     },
     {
       "name": "Ernst & Young (EY)",
@@ -55,7 +55,7 @@
       "startDate": "2018-10-15",
       "endDate": "2020-10-25",
       "summary": "Specialized in financial statement audits, mergers and acquisitions, and security offerings",
-      "highlights": ["Financial Analysis, Financial Due Diligence, Auditing"]
+      "highlights": ["Financial Analysis", "Financial Due Diligence", "Auditing"]
     }
   ],
   "volunteer": [
@@ -63,14 +63,14 @@
       "organization": "Shanghai United Foundation",
       "position": "Participant of E.G.G 50km Walkathon",
       "startDate": "2021-05",
-      "endDate": "",
+      "endDate": "2021-05",
       "summary": "Trekked 50 km in 12 hours with EY colleagues, raised 44K+ CNY funds for underprivileged children due to family poverty or personal disabilities, and garnered public awareness for equal opportunities and sustainable economic development."
     },
     {
       "organization": "AIESEC Colombo North Local Committee",
       "position": "Global Volunteer",
       "startDate": "2017-01",
-      "endDate": "",
+      "endDate": "2017-01",
       "summary": "Promoted cross-cultural communication and indigenous tourism by writing journals, taking photos, and making videos with volunteers from diverse countries including India, Thailand, Egypt, Brazil, etc."
     },
     {
@@ -84,7 +84,7 @@
   "education": [
     {
       "institution": "University of British Columbia (UBC)",
-      "location": "Vancouver, BC Canada",
+      "location": "Vancouver, BC",
       "url": "https://www.ubc.ca/",
       "area": "Business Analytics",
       "studyType": "Master",
@@ -97,7 +97,7 @@
     },
     {
       "institution": "Xiamen University (XMU)",
-      "location": "Xiamen, Fujian, China",
+      "location": "Xiamen, Fujian",
       "url": "https://en.xmu.edu.cn/main.htm",
       "area": "Finance and Economics",
       "studyType": "Bachelor",
@@ -111,7 +111,7 @@
     },
     {
       "institution": "National Central University (NCU)",
-      "location": "Taoyuan, Taiwan, China",
+      "location": "Chung-li, Taiwan",
       "url": "https://www.ncu.edu.tw/en/index.php",
       "area": "Finance",
       "studyType": "Exchange",
@@ -150,22 +150,35 @@
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "SQL (MySQL, PostgreSQL, Oracle, SQL Server)",
+        "MySQL/PostgreSQL/Oracle/SQL Server",
         "MongoDB/MQL",
         "neo4j/CypherQL",
         "HiveQL"
       ]
     },
     {
-      "name": "Data Analytics & Visualization",
+      "name": "Data Analytics",
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "MS Excel, Stata, MATLAB",
-        "Tableau, Power BI",
-        "numpy, pandas, matplotlib, seaborn",
-        "Web Scraping (beautiful soup, selenium)",
+        "MS Excel",
+        "pandas", 
+        "numpy",
+        "Stata",
+        "MATLAB",
         "Alteryx"
+      ]
+    },
+    {
+      "name": "Data Visualization",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Tableau",
+        "Power BI",
+        "matplotlib", 
+        "seaborn",
+        "Photoshop"
       ]
     },
     {
@@ -173,6 +186,7 @@
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
+        "SQL",
         "Python",
         "R/RStudio",
         "HTML/CSS"
