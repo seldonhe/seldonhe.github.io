@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="www.linkedin.com/in/seldon-he">LinkedIn</a>, <a href="https://seldonhe.github.io">GitHub</a>, <a href="https://www.zhihu.com/people/seldon-ho/posts">Zhihu</a>
+subtitle: <a href="https://www.linkedin.com/in/seldon-he/">LinkedIn</a>, <a href="https://seldonhe.github.io">GitHub</a>, <a href="https://www.zhihu.com/people/seldon-ho/posts">Zhihu</a>
 
 profile:
   align: right
@@ -30,5 +30,3 @@ As a `quick learner`, adept `team player`, and dynamic `problem solver` with res
 `Programming & Database`: R/RStudio, Python (pandas, NumPy, matplotlib, scikit-learn, seaborn, beautiful soup, selenium, NLTK, TensorFlow), MySQL, PostgreSQL, Oracle, SQL Server, HiveQL, MongoDB, HTML/CSS, Machine Learning (Decision Tree, kNN, SVM)
 
 `Finance & Accounting`: FRM (Financial Risk Manager, Part I Passed), CISA (Certified Information Systems Auditor), CICPA (Chinese CPA-Professional Stage), Financial Valuation and Modelling (CAPM, DCF, P/B, P/E, APT, VaR, Monte Carlo)
-
-
