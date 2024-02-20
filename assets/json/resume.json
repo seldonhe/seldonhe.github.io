@@ -87,7 +87,7 @@
       "location": "Vancouver, BC",
       "url": "https://www.ubc.ca/",
       "area": "Business Analytics",
-      "studyType": "Master",
+      "studyType": "Master of Business Analytics",
       "startDate": "2023-08",
       "endDate": "2024-11",
       "courses": ["Data Visualization (94)", 
@@ -100,7 +100,7 @@
       "location": "Xiamen, Fujian",
       "url": "https://en.xmu.edu.cn/main.htm",
       "area": "Finance and Economics",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor of Economics",
       "startDate": "2014-09",
       "endDate": "2018-06",
       "courses": ["Econometrics (91)", 
@@ -114,21 +114,13 @@
       "location": "Chung-li, Taiwan",
       "url": "https://www.ncu.edu.tw/en/index.php",
       "area": "Finance",
-      "studyType": "Exchange",
+      "studyType": "Exchange Student",
       "startDate": "2016-02",
       "endDate": "2016-06",
       "courses": ["Game Theory (95)", 
       "Behavioral Finance (96)",
       "Investment (100)", 
       "Futures and Options (100)"]
-    }
-  ],
-  "certificates": [
-    {
-      "name": "CISA (Certified Information Systems Auditor)",
-      "date": "2021-04-29",
-      "issuer": "ISACA",
-      "icon": "fa-solid fa-location-dot"
     }
   ],
   "skills": [
@@ -231,6 +223,14 @@
       "language": "Japanese",
       "fluency": "Basic",
       "icon": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "CISA (Certified Information Systems Auditor)",
+      "date": "2021-04-29",
+      "issuer": "ISACA",
+      "icon": "fa-solid fa-location-dot"
     }
   ],
   "interests": [
