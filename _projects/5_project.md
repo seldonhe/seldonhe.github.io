@@ -37,7 +37,7 @@ The outcome of this analysis provides Vancouver Airport with the predictive insi
 </div>
 
 {% raw %}
-```
+```python
 energy.maa.forecast <- forecast(ets(energy.ts, model=energy.maa, use.initial.values=TRUE), h=36)
 energy.maa.forecast
 
@@ -99,7 +99,7 @@ Plots of the electricity use data and STL decomposition
 
 {% raw %}
 
-```
+```python
 # Data Exploration
 pairs(~ energy + mean.temp + total.area + total.passengers, data = data)
 
@@ -138,7 +138,7 @@ lines(fitted(energy.lm), type='l', col='red')
 
 {% raw %}
 
-```
+```python
 # ETS(M,A,A)
 energy.maa <- ets(energy.ts.train, model='MAA', damped=FALSE)
 summary(energy.maa)
@@ -165,7 +165,7 @@ checkresiduals(energy.maa)
 
 {% raw %}
 
-```
+```python
 # ARIMA(1,1,0)(0,1,1)[12]
 energy.arima <- Arima(energy.ts.train, order=c(1, 1, 0), seasonal = c(0, 1, 1))
 summary(energy.arima)
@@ -212,7 +212,7 @@ Our best forecasting method is the `ETS(M,A,A)` model, which has the lowest RMSE
 
 {% raw %}
 
-```
+```python
 options(repr.plot.width=18, repr.plot.height=9)
 c_palette <- brewer.pal(5, "Dark2")
 colors <- append(c("black", "purple"), c_palette)

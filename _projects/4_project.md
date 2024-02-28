@@ -63,7 +63,7 @@ related_publications: false
 
 <p>For an interactive Dashboard, please refer to <a href="https://lookerstudio.google.com/reporting/cfba91e9-89ae-487d-b955-9ef53013fd43/page/p_viqvel4red">Google Looker Studio</a>.</p>
 
-<iframe width="600" height="600" src="https://lookerstudio.google.com/embed/reporting/e0625605-c992-4ddf-ad21-70a7490017f5/page/p_viqvel4red" frameborder="5" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/e0625605-c992-4ddf-ad21-70a7490017f5/page/p_viqvel4red" frameborder="5" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 <div class="container-fluid mt-3 md-3">
 
