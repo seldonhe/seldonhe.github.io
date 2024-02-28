@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Optimized, Dynamic & Transformative HR Strategy for CanadaRetail
-description: Machine Learning/Linear Regression/Random Forest
+description: Machine Learning /Linear Regression /Random Forest
 img: assets/img/ubc_campus/ubc_robson-square.jpg
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---

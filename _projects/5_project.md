@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Strategic Energy Management:Forecasting for Sustainability at Vancouver Airport
-description: Time Series Analysis/Linear Regression
+title: Strategic Energy Management - Forecasting for Sustainability at Vancouver Airport
+description: Time Series Analysis /Linear Regression
 img: assets/img/ubc_campus/ubc_okanagan-aerial-1.jpg
 importance: 5
 category: work
@@ -24,8 +24,6 @@ The outcome of this analysis provides Vancouver Airport with the predictive insi
 
 </div>
 
-<div class="container-fluid mt-3 md-3">
-
 <div class = "mt-3 md-3">
 <h2>Forecasts</h2>
 </div>
@@ -37,7 +35,8 @@ The outcome of this analysis provides Vancouver Airport with the predictive insi
 </div>
 
 {% raw %}
-```python
+
+```r
 energy.maa.forecast <- forecast(ets(energy.ts, model=energy.maa, use.initial.values=TRUE), h=36)
 energy.maa.forecast
 
@@ -46,6 +45,7 @@ plot(energy.maa.forecast, main="YVR Energy Use with Forecasts from ETS(M,A,A)", 
 legend("topleft", legend= c("Actual", "Forecasts"),
        col=c("black", "blue"), lty=c(1, 1), bty="n")
 ```
+
 {% endraw %}
 
 <p>The model predicts a continuation of the increasing trend in energy use at YVR. The seasonal pattern is also expected to continue, which is consistent with typical energy use patterns influenced by heating and cooling needs related to passenger numbers. The prediction intervals suggest that while the model is fairly confident in the near term (narrower intervals), the level of certainty decreases as we move further out (wider intervals).</p>
@@ -99,7 +99,7 @@ Plots of the electricity use data and STL decomposition
 
 {% raw %}
 
-```python
+```r
 # Data Exploration
 pairs(~ energy + mean.temp + total.area + total.passengers, data = data)
 
@@ -138,7 +138,7 @@ lines(fitted(energy.lm), type='l', col='red')
 
 {% raw %}
 
-```python
+```r
 # ETS(M,A,A)
 energy.maa <- ets(energy.ts.train, model='MAA', damped=FALSE)
 summary(energy.maa)
@@ -165,7 +165,7 @@ checkresiduals(energy.maa)
 
 {% raw %}
 
-```python
+```r
 # ARIMA(1,1,0)(0,1,1)[12]
 energy.arima <- Arima(energy.ts.train, order=c(1, 1, 0), seasonal = c(0, 1, 1))
 summary(energy.arima)
@@ -191,8 +191,8 @@ accuracy(forecast(energy.arima, h=36), energy.ts.test)[,c(2,3,5,6)]
 mean.res <- mean(residuals(energy.arima), na.rm = TRUE); mean.res
 checkresiduals(energy.arima)
 ```
-{% endraw %}
 
+{% endraw %}
 
 <h4>Model Comparison</h4>
 
@@ -212,7 +212,7 @@ Our best forecasting method is the `ETS(M,A,A)` model, which has the lowest RMSE
 
 {% raw %}
 
-```python
+```r
 options(repr.plot.width=18, repr.plot.height=9)
 c_palette <- brewer.pal(5, "Dark2")
 colors <- append(c("black", "purple"), c_palette)

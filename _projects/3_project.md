@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Billionaires Statistics Dataset:Unveiling the Secrets of the Ultra-Wealthy
-description: Data Visualization/Analytics
+title: Billionaires Statistics Dataset - Unveiling the Secrets of the Ultra-Wealthy
+description: Data Visualization /Analytics
 img: assets/img/ubc_campus/ubc_moa.jpg
-importance: 3
+importance: 4
 category: work
 related_publications: false
 ---

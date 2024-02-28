@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Google Hackathon Challenge:Insights from NYPD Motor Vehicle Collisions
-description: Data Visualization/Analytics/Machine Learning/Time Series Analysis
+title: Google Hackathon Challenge - Insights from NYPD Motor Vehicle Collisions
+description: Data Visualization /Analytics /Machine Learning /Time Series Analysis
 img: assets/img/project_img/Hackathon/0000.png
 importance: 1
 category: work
@@ -61,9 +61,9 @@ related_publications: false
 <h2>Dashboard</h2>
 </div>
 
-<p>For an interactive Dashboard, please refer to <a href="https://lookerstudio.google.com/reporting/cfba91e9-89ae-487d-b955-9ef53013fd43/page/p_viqvel4red">Google Looker Studio</a>.</p>
+<p>For an interactive Dashboard, please refer to <a href="https://lookerstudio.google.com/reporting/cfba91e9-89ae-487d-b955-9ef53013fd43/page/p_viqvel4red">Google Looker Studio</a>.Please allow third-party cookies to display the dashboard.</p>
 
-<iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/e0625605-c992-4ddf-ad21-70a7490017f5/page/p_viqvel4red" frameborder="5" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<iframe width="800" height="640" src="https://lookerstudio.google.com/embed/reporting/e0625605-c992-4ddf-ad21-70a7490017f5/page/p_viqvel4red" frameborder="5" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 <div class="container-fluid mt-3 md-3">
 
