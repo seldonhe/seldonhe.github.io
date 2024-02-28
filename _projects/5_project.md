@@ -19,7 +19,6 @@ Our analytical approach integrates Exponential Smoothing State Space (ETS) and A
 
 <p>
 Comparative analysis of ETS and ARIMA models led to the selection of the most accurate model for forecasting YVR's energy usage. This model is a key instrument in guiding YVR's strategic initiatives, budgeting, and environmental programs.</p>
-
 <p>
 The outcome of this analysis provides Vancouver Airport with the predictive insights required for effective energy management and reinforces its commitment to efficiency and sustainability.</p>
 
@@ -27,7 +26,9 @@ The outcome of this analysis provides Vancouver Airport with the predictive insi
 
 <div class="container-fluid mt-3 md-3">
 
+<div class = "mt-3 md-3">
 <h2>Forecasts</h2>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,9 +37,7 @@ The outcome of this analysis provides Vancouver Airport with the predictive insi
 </div>
 
 {% raw %}
-
-```r
-
+```
 energy.maa.forecast <- forecast(ets(energy.ts, model=energy.maa, use.initial.values=TRUE), h=36)
 energy.maa.forecast
 
@@ -46,44 +45,41 @@ plot(energy.maa.forecast, main="YVR Energy Use with Forecasts from ETS(M,A,A)", 
 
 legend("topleft", legend= c("Actual", "Forecasts"),
        col=c("black", "blue"), lty=c(1, 1), bty="n")
-
 ```
 {% endraw %}
 
 <p>The model predicts a continuation of the increasing trend in energy use at YVR. The seasonal pattern is also expected to continue, which is consistent with typical energy use patterns influenced by heating and cooling needs related to passenger numbers. The prediction intervals suggest that while the model is fairly confident in the near term (narrower intervals), the level of certainty decreases as we move further out (wider intervals).</p>
 
+<div class = "mt-3 md-3">
 <h2>Impacts</h2>
-
-1. **Data-Driven Decision Making**: The use of historical consumption data, passenger traffic, and temperature allows YVR to make informed decisions based on past patterns and predictable seasonal variations. This data-driven approach can lead to more effective scheduling of energy-intensive operations and better planning for energy procurement.<br>
-2. **Cost Efficiency**: Accurate forecasts enable YVR to negotiate better energy contracts, avoid peak tariffs, and potentially invest in energy futures, leading to significant cost savings.<br>
-3. **Operational Optimization**: By predicting energy needs, YVR can optimize the operation of HVAC systems, lighting, and other energy-dependent facilities, ensuring they are used only when needed and at optimal levels, reducing both waste and operating costs.<br>
-4. **Sustainability Planning**: Insights from the energy forecasts can inform long-term sustainability initiatives, such as investments in renewable energy sources, energy storage systems, and retrofitting projects to improve efficiency.<br>
-5. **Regulatory Compliance and Reporting**: The ability to forecast energy consumption helps YVR in complying with environmental regulations, participating in carbon markets, and fulfilling reporting requirements for greenhouse gas emissions.<br>
-6. **Public Engagement and Transparency**: Sharing insights from the forecasting project can enhance public trust and corporate reputation, demonstrating YVR's commitment to sustainability.<br>
-
+1. <b>Data-Driven Decision Making</b>: The use of historical consumption data, passenger traffic, and temperature allows YVR to make informed decisions based on past patterns and predictable seasonal variations. This data-driven approach can lead to more effective scheduling of energy-intensive operations and better planning for energy procurement.<br>
+2. <b>Cost Efficiency</b>: Accurate forecasts enable YVR to negotiate better energy contracts, avoid peak tariffs, and potentially invest in energy futures, leading to significant cost savings.<br>
+3. <b>Operational Optimization</b>: By predicting energy needs, YVR can optimize the operation of HVAC systems, lighting, and other energy-dependent facilities, ensuring they are used only when needed and at optimal levels, reducing both waste and operating costs.<br>
+4. <b>Sustainability Planning</b>: Insights from the energy forecasts can inform long-term sustainability initiatives, such as investments in renewable energy sources, energy storage systems, and retrofitting projects to improve efficiency.<br>
+5. <b>Regulatory Compliance and Reporting</b>: The ability to forecast energy consumption helps YVR in complying with environmental regulations, participating in carbon markets, and fulfilling reporting requirements for greenhouse gas emissions.<br>
+6. <b>Public Engagement and Transparency</b>: Sharing insights from the forecasting project can enhance public trust and corporate reputation, demonstrating YVR's commitment to sustainability.<br>
+</div>
 
 <div class = "mt-3 md-3">
 <h2>Models and Codes</h2>
 </div>
 
-<h3>STL Decomposition</h3>
+<h4>STL Decomposition</h4>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/project_img/BABS502/0001.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-    Plot of the electricity use data
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/project_img/BABS502/0002.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-    STL decomposition plot
-    </div>
+</div>
+<div class="caption">
+Plots of the electricity use data and STL decomposition
 </div>
 
-<h3>Linear Model</h3>
+
+<h4>Linear Model</h4>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -103,7 +99,7 @@ legend("topleft", legend= c("Actual", "Forecasts"),
 
 {% raw %}
 
-```r
+```
 # Data Exploration
 pairs(~ energy + mean.temp + total.area + total.passengers, data = data)
 
@@ -121,10 +117,11 @@ plot(data$energy, type='l', col='blue'
     , ylab = "Energy use (thousand kWh)")
 lines(fitted(energy.lm), type='l', col='red')
 ```
+
 {% endraw %}
 
 
-<h3>Exponential Smoothing (ETS) Model</h3>
+<h4>Exponential Smoothing (ETS) Model</h4>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -141,7 +138,7 @@ lines(fitted(energy.lm), type='l', col='red')
 
 {% raw %}
 
-```r
+```
 # ETS(M,A,A)
 energy.maa <- ets(energy.ts.train, model='MAA', damped=FALSE)
 summary(energy.maa)
@@ -160,14 +157,15 @@ accuracy(forecast(energy.maa, h=36), energy.ts.test)[,c(2,3,5,6)]
 mean.res <- mean(residuals(energy.maa), na.rm = TRUE); mean.res
 checkresiduals(energy.maa)
 ```
+
 {% endraw %}
 
 
-<h3>ARIMA Model</h3>
+<h4>ARIMA Model</h4>
 
 {% raw %}
 
-```r
+```
 # ARIMA(1,1,0)(0,1,1)[12]
 energy.arima <- Arima(energy.ts.train, order=c(1, 1, 0), seasonal = c(0, 1, 1))
 summary(energy.arima)
@@ -196,7 +194,7 @@ checkresiduals(energy.arima)
 {% endraw %}
 
 
-<h3>Model Comparison</h3>
+<h4>Model Comparison</h4>
 
 <p>
 The plot shows the actual recorded energy use (black line) and the forecasts from different methods. The ETS and ARIMA models (purple and green lines) are closely tracking the actual energy use, particularly towards the latter years, while the basic methods (dotted lines) deviate significantly from the actual use.
@@ -214,7 +212,7 @@ Our best forecasting method is the `ETS(M,A,A)` model, which has the lowest RMSE
 
 {% raw %}
 
-```r
+```
 options(repr.plot.width=18, repr.plot.height=9)
 c_palette <- brewer.pal(5, "Dark2")
 colors <- append(c("black", "purple"), c_palette)
@@ -232,12 +230,13 @@ lines(energy.snaive$mean,col= colors[7], lty = 2)
 legend("topleft", legend= methods,
        col=colors, lty=c(1, 1, 1, 2, 2, 2, 2), bty="n")
 ```
+
 {% endraw %}
 
 
 <div class="container-fluid mt-3 md-3">
 
-<h2>Other Team Member</h2>
+<h3>Other Team Member</h3>
     <div class="row">
         <a href = "https://www.linkedin.com/in/wendyxu09/">Wendy Xu</a>
     </div>
