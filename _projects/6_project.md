@@ -1,6 +1,6 @@
 ---
 layout: page
-title: From Inclusion to Innovation: A Hybrid, Engaged and Digitalized BCPS
+title: From Inclusion to Innovation - A Hybrid, Engaged and Digitalized BCPS
 description: People Analytics /Strategetic Thinking /Decision Making
 img: assets/img/ubc_campus/ubc_irshdc.jpg
 importance: 6
@@ -108,16 +108,14 @@ We began by highlighting the crucial issues stemming from internal and external 
 <p>1. <b>Comprehensive Strategies</b>: We outlined comprehensive strategies to address challenges and leverage strengths. These strategies included a Leadership Incubator Program, a Referral Program to enhance diversity, and a Peer Support System to foster inclusion.</p>
 <p>2. <b>Three Pillars</b>: The workplace culture was defined by three fundamental pillars: commitment to lifelong learning, inclusivity, and visionary leadership. These pillars not only attract and retain top talents but also drive the organization towards its goals.</p>
 <p>3. <b>Goals and Priorities</b>: Clear goals and priorities were set for the next 3-5 years, focusing on leadership development, diversity expansion, and employee engagement improvement. These goals align with principles of equity, diversity, and inclusion.</p>
+<p>4. <b>Change Management</b>: We emphasized three key stages in change management: creating a climate for change, engaging and enabling stakeholders, and implementing and sustaining transitions. These stages are critical for ensuring the success of the proposed initiatives.</p>
+<p>5. <b>Outcome and Vision</b>: The ultimate vision is to transform BCPS into a hybrid, engaged, and digitalized workplace that promotes equity, diversity, and inclusion for everyone. This transformation will result in a more innovative and inclusive BCPS, with a strong and engaged workforce.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/project_img/Berlineaton/0011.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-<p>4. <b>Change Management</b>: We emphasized three key stages in change management: creating a climate for change, engaging and enabling stakeholders, and implementing and sustaining transitions. These stages are critical for ensuring the success of the proposed initiatives.</p>
-<p>5. <b>Outcome and Vision</b>: The ultimate vision is to transform BCPS into a hybrid, engaged, and digitalized workplace that promotes equity, diversity, and inclusion for everyone. This transformation will result in a more innovative and inclusive BCPS, with a strong and engaged workforce.</p>
-
 
 <div class="container-fluid mt-3 md-3">
 
