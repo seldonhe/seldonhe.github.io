@@ -34,6 +34,10 @@ related_publications: false
 
 <h2>Case Analysis</h2>
 
+<h4>Key Issues and Motivation</h4>
+<p>
+We began by highlighting the crucial issues stemming from internal and external environments. These issues included increasing turnover rate, leadership gap, lack of digitalized talents, and decreasing engagement. The core values and vision were introduced as driving forces for the proposed transitions.</p>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/project_img/Berlineaton/0001.jpg" class="img-fluid rounded z-depth-1" %}
@@ -45,9 +49,8 @@ related_publications: false
     </div>
 </div>
 
-<h4>Key Issues and Motivation</h4>
-<p>
-We began by highlighting the crucial issues stemming from internal and external environments. These issues included increasing turnover rate, leadership gap, lack of digitalized talents, and decreasing engagement. The core values and vision were introduced as driving forces for the proposed transitions.</p>
+<h4>Equity, Diversity, and Inclusion</h4>
+<p>To facilitate sustainable development, we emphasized a commitment to equity, diversity, and inclusion as guiding principles. The focus was on equal opportunities for individual development, diversifying talent pools, and improving employee well-being and satisfaction.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -61,8 +64,8 @@ We began by highlighting the crucial issues stemming from internal and external 
     </div>
 </div>
 
-<h4>Equity, Diversity, and Inclusion</h4>
-<p>To facilitate sustainable development, we emphasized a commitment to equity, diversity, and inclusion as guiding principles. The focus was on equal opportunities for individual development, diversifying talent pools, and improving employee well-being and satisfaction.</p>
+<h4>Strengths and Challenges</h4>
+<p>Strengths of BCPS were acknowledged, including its lean operation, clear core values, and proactive adoption of flexible work arrangements. However, challenges like turnover rates, economic limitations, and technological advancements posed significant hurdles.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -85,15 +88,16 @@ We began by highlighting the crucial issues stemming from internal and external 
     </div>
 </div>
 
-<h4>Strengths and Challenges</h4>
-<p>Strengths of BCPS were acknowledged, including its lean operation, clear core values, and proactive adoption of flexible work arrangements. However, challenges like turnover rates, economic limitations, and technological advancements posed significant hurdles.</p>
-
 </div>
 
-<div class = "mt-3 md-3">
-
+<div class="container-fluid mt-3 md-3">
 <h2>Recommendations</h2>
-</div>
+
+<p>1. <b>Comprehensive Strategies</b>: We outlined comprehensive strategies to address challenges and leverage strengths. These strategies included a Leadership Incubator Program, a Referral Program to enhance diversity, and a Peer Support System to foster inclusion.</p>
+<p>2. <b>Three Pillars</b>: The workplace culture was defined by three fundamental pillars: commitment to lifelong learning, inclusivity, and visionary leadership. These pillars not only attract and retain top talents but also drive the organization towards its goals.</p>
+<p>3. <b>Goals and Priorities</b>: Clear goals and priorities were set for the next 3-5 years, focusing on leadership development, diversity expansion, and employee engagement improvement. These goals align with principles of equity, diversity, and inclusion.</p>
+<p>4. <b>Change Management</b>: We emphasized three key stages in change management: creating a climate for change, engaging and enabling stakeholders, and implementing and sustaining transitions. These stages are critical for ensuring the success of the proposed initiatives.</p>
+<p>5. <b>Outcome and Vision</b>: The ultimate vision is to transform BCPS into a hybrid, engaged, and digitalized workplace that promotes equity, diversity, and inclusion for everyone. This transformation will result in a more innovative and inclusive BCPS, with a strong and engaged workforce.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -105,29 +109,27 @@ We began by highlighting the crucial issues stemming from internal and external 
         {% include figure.liquid path="assets/img/project_img/Berlineaton/0010.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<p>1. <b>Comprehensive Strategies</b>: We outlined comprehensive strategies to address challenges and leverage strengths. These strategies included a Leadership Incubator Program, a Referral Program to enhance diversity, and a Peer Support System to foster inclusion.</p>
-<p>2. <b>Three Pillars</b>: The workplace culture was defined by three fundamental pillars: commitment to lifelong learning, inclusivity, and visionary leadership. These pillars not only attract and retain top talents but also drive the organization towards its goals.</p>
-<p>3. <b>Goals and Priorities</b>: Clear goals and priorities were set for the next 3-5 years, focusing on leadership development, diversity expansion, and employee engagement improvement. These goals align with principles of equity, diversity, and inclusion.</p>
-<p>4. <b>Change Management</b>: We emphasized three key stages in change management: creating a climate for change, engaging and enabling stakeholders, and implementing and sustaining transitions. These stages are critical for ensuring the success of the proposed initiatives.</p>
-<p>5. <b>Outcome and Vision</b>: The ultimate vision is to transform BCPS into a hybrid, engaged, and digitalized workplace that promotes equity, diversity, and inclusion for everyone. This transformation will result in a more innovative and inclusive BCPS, with a strong and engaged workforce.</p>
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/project_img/Berlineaton/0011.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
+</div>
+
 <div class="container-fluid mt-3 md-3">
 
 <h3>Other Team Members</h3>
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm">
         <a href = "https://www.linkedin.com/in/jiaweilee/">Jiawei Li</a></div>
-        <div class="col-sm-4">
+        <div class="col-sm">
         <a href = "https://www.linkedin.com/in/yunpu-sheng/">Yunpu Sheng</a></div>
-        <div class="col-sm-4">
+    </div>
+    <div class="row">    
+        <div class="col-sm">
         <a href = "https://www.linkedin.com/in/linlin-li234/">Linlin Li</a></div>
-        <div class="col-sm-4">
+        <div class="col-sm">
         <a href = "https://www.linkedin.com/in/zhengheng-jia/">Zhengheng Jia</a></div>
     </div>
 </div>
