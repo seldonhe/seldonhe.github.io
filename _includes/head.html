@@ -1,0 +1,81 @@
+{% if site.enable_google_analytics %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "{{ site.google_analytics }}");
+</script>
+{% endif %}
+
+{% if site.enable_cronitor_analytics %}
+<!-- Cronitor RUM -->
+<script async src="https://rum.cronitor.io/script.js"></script>
+<script>
+  window.cronitor = window.cronitor || function () {
+    (window.cronitor.q = window.cronitor.q || []).push(arguments);
+  };
+  cronitor("config", { clientKey: "{{ site.cronitor_analytics }}" });
+</script>
+{% endif %}
+
+{% if site.enable_google_verification %}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+{% endif %}
+{% if site.enable_bing_verification %}
+<meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
+{% endif %}
+
+{% capture seo_tags %}
+{% seo %}
+{% endcapture %}
+
+<!-- Open Graph -->
+{% if site.serve_og_meta %}
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+{% if site.og_image %}
+<meta property="og:image" content="{{ site.og_image | absolute_url }}" />
+{% endif %}
+{% if page.og_image %}
+<meta property="og:image" content="{{ page.og_image | absolute_url }}" />
+{% endif %}
+{% endif %}
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+{% if site.twitter.username %}
+<meta name="twitter:site" content="@{{ site.twitter.username }}" />
+<meta name="twitter:creator" content="@{{ site.twitter.username }}" />
+{% endif %}
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+{% if site.og_image %}
+<meta name="twitter:image" content="{{ site.og_image | absolute_url }}" />
+{% endif %}
+{% if page.og_image %}
+<meta name="twitter:image" content="{{ page.og_image | absolute_url }}" />
+{% endif %}
+
+<!-- Styles -->
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
+
+<!-- Dark Mode -->
+{% if site.enable_darkmode %}
+<link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}" />
+<script>
+  const theme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', theme);
+</script>
+{% endif %}
+
+<!-- Removed polyfill.io due to security concerns (supply chain attack risk) -->
+<!-- Alternative: Use native browser features or specific polyfills from trusted CDNs -->
