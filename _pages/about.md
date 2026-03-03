@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 subtitle: >
   <a href="https://www.linkedin.com/in/seldon-he/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
   <a href="https://github.com/seldonhe" target="_blank"><i class="fab fa-github"></i> GitHub</a> &nbsp;|&nbsp;
@@ -10,16 +10,16 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p><i class="fas fa-envelope"></i> Seldon.He@ubc.ca</p>
     <p><i class="fas fa-university"></i> University of British Columbia</p>
     <p><i class="fas fa-map-marker-alt"></i> Vancouver, BC Canada</p>
 
-news: false # includes a list of news items
-latest_posts: false # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+news: false
+latest_posts: false
+selected_papers: false
+social: false
 ---
 
 As a **quick learner**, adept **team player**, and dynamic **problem solver** with responsible leadership, I possess a robust analytical acumen rooted in five years of varied professional experience across data analytics, risk management, forensics and integrity, financial assurance and advisory. Furthermore, my dedication to **equity, diversity, and inclusion** extends beyond the workplace, reflecting my commitment to engaging with the community positively and fostering sustainability.
