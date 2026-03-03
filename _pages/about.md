@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /about/
+permalink: /
 subtitle: >
   <a href="https://www.linkedin.com/in/seldon-he/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
   <a href="https://github.com/seldonhe" target="_blank"><i class="fab fa-github"></i> GitHub</a> &nbsp;|&nbsp;
@@ -155,3 +155,10 @@ As a **quick learner**, adept **team player**, and dynamic **problem solver** wi
   font-weight: 600;
 }
 </style>
+
+<script>
+// Redirect from old /about/ URL to homepage (if anyone has bookmarked it)
+if (window.location.pathname === '/about/') {
+  window.location.replace('/');
+}
+</script>
