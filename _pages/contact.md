@@ -19,7 +19,7 @@ University of British Columbia
 BC Canada, V6T 1Z4
 
 **Connect:**
-- [LinkedIn](https://www.linkedin.com/in/seldon-he/)
+- [LinkedIn](https://www.linkedin.com/in/seldonhe/)
 - [GitHub](https://github.com/seldonhe)
 - [Zhihu](https://www.zhihu.com/people/seldon-ho/posts)
 

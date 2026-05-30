@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href="https://www.linkedin.com/in/seldon-he/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
+  <a href="https://www.linkedin.com/in/seldonhe/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
   <a href="https://github.com/seldonhe" target="_blank"><i class="fab fa-github"></i> GitHub</a> &nbsp;|&nbsp;
   <a href="https://www.zhihu.com/people/seldon-ho/posts" target="_blank"><i class="fas fa-pen-nib"></i> Zhihu</a>
 
