@@ -8,8 +8,8 @@ middle_name:
 last_name: He
 email: seldon.he@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Seldon He is a business and data analytics professional in Vancouver with seven
-  years of experience across analytics, financial planning, risk management,
+  Seldon He is a Financial Analyst at the City of Vancouver with seven years of
+  experience across business analytics, financial planning, risk management,
   compliance, and financial advisory.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the

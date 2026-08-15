@@ -3,7 +3,7 @@
 [![Deploy site](https://github.com/seldonhe/seldonhe.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/seldonhe/seldonhe.github.io/actions/workflows/deploy.yml)
 [![Check links](https://github.com/seldonhe/seldonhe.github.io/actions/workflows/broken-links.yml/badge.svg)](https://github.com/seldonhe/seldonhe.github.io/actions/workflows/broken-links.yml)
 
-Personal portfolio for Seldon He, a Vancouver-based business and data analytics professional focused on financial planning, risk management, visualization, forecasting, and decision support.
+Personal portfolio for Seldon He, a Financial Analyst at the City of Vancouver focused on business analytics, financial planning, risk management, visualization, forecasting, and decision support.
 
 **Live site:** [seldonhe.github.io](https://seldonhe.github.io/)
 

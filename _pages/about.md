@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Business and data analytics professional specializing in financial planning, risk management, and decision support.
+description: Financial Analyst at the City of Vancouver specializing in business analytics, financial planning, and decision support.
 subtitle: >
   <a href="https://www.linkedin.com/in/seldon-he/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
   <a href="https://github.com/seldonhe" target="_blank"><i class="fab fa-github"></i> GitHub</a> &nbsp;|&nbsp;
@@ -13,7 +13,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p><i class="fas fa-envelope"></i> Seldon.He@gmail.com</p>
+    <p><i class="fas fa-envelope"></i> seldon.he@gmail.com</p>
     <p><i class="fas fa-map-marker-alt"></i> Vancouver, BC Canada</p>
 
 news: false
@@ -22,7 +22,7 @@ selected_papers: false
 social: false
 ---
 
-As a **quick learner**, adept **team player**, and dynamic **problem solver** with responsible leadership, I possess a robust analytical acumen rooted in seven years of varied professional experience across data analytics, risk management, forensics and integrity, financial assurance and advisory. Furthermore, my dedication to **equity, diversity, and inclusion** extends beyond the workplace, reflecting my commitment to engaging with the community positively and fostering sustainability.
+I am a **Financial Analyst at the City of Vancouver** with seven years of varied professional experience across data analytics, risk management, forensics and integrity, financial assurance, and advisory. As a quick learner, collaborative team player, and dynamic problem solver, I translate complex information into practical decision support. My dedication to **equity, diversity, and inclusion** extends beyond the workplace through positive community engagement and a commitment to sustainability.
 
 ---
 
