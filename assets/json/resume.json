@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Seldon He",
-    "label": "Business and Data Analytics | Financial Planning | Risk Management",
+    "label": "Financial Analyst | Business and Data Analytics | Financial Planning",
     "image": "",
     "email": "seldon.he@gmail.com",
     "url": "https://seldonhe.github.io/",
@@ -23,11 +23,18 @@
   },
   "work": [
     {
+      "name": "City of Vancouver",
+      "position": "Financial Analyst",
+      "url": "https://vancouver.ca/",
+      "current": true,
+      "summary": ""
+    },
+    {
       "name": "UBC Sauder School of Business",
       "position": "Teaching Assistant",
       "url": "https://www.sauder.ubc.ca",
       "startDate": "2023-09-01",
-      "endDate": "",
+      "endDate": "2024-08-31",
       "summary": "Delivered impactful learning experiences by facilitating class discussions and holding office hours, supported 200+ students (5 sections, 2 terms) and enhanced student comprehension and engagement."
     },
     {

@@ -11,7 +11,7 @@ nav_order: 4
 
 I'm always open to discussing financial and data analytics, risk management, or potential collaborations.
 
-**Email:** [Seldon.He@gmail.com](mailto:Seldon.He@gmail.com)
+**Email:** [seldon.he@gmail.com](mailto:seldon.he@gmail.com)
 
 **Location:**  
 Vancouver, BC, Canada
