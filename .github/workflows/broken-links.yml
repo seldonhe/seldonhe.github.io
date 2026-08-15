@@ -36,5 +36,5 @@ jobs:
         uses: lycheeverse/lychee-action@v2.9.0
         with:
           fail: true
-          # LinkedIn rejects automated checks; the built-site job validates local navigation.
-          args: --exclude 'https://(www\.)?linkedin\.com/.*' --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _pages/dropdown.md --exclude-path _pages/news.md --exclude-path _pages/profiles.md --exclude-path _pages/publications.md --exclude-path _pages/repositories.md --exclude-path _pages/teaching.md --verbose --no-progress './_pages/*.md' './_projects/*.md'
+          # LinkedIn and Zhihu reject automated checks; the built-site job validates local navigation.
+          args: --exclude 'https://(www\.)?linkedin\.com/.*' --exclude 'https://www\.zhihu\.com/.*' --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _pages/dropdown.md --exclude-path _pages/news.md --exclude-path _pages/profiles.md --exclude-path _pages/publications.md --exclude-path _pages/repositories.md --exclude-path _pages/teaching.md --verbose --no-progress './_pages/*.md' './_projects/*.md'
