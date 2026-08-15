@@ -3,7 +3,7 @@ layout: page
 title: Financial Analysis of Battery Electric Fire Service Vehicles
 description: Financial Modeling / Fleet Electrification / Sustainability Analysis
 img: assets/img/project_img/BEV_Fire_Service/card.png
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
