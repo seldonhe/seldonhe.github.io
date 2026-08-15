@@ -4,7 +4,7 @@ title: Data-Driven Marketing Analysis for Social Buzz
 description: Data Visualization /Marketing
 img: assets/img/ubc_campus/ubc_snowball-fight.jpg
 github: https://github.com/seldonhe/Data-Driven-Marketing-SocialBuzz
-importance: 3
+importance: 4
 category: work
 related_publications: false
 ---

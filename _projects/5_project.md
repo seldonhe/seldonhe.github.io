@@ -3,7 +3,7 @@ layout: page
 title: Strategic Energy Management - Forecasting for Sustainability at Vancouver Airport
 description: Time Series Analysis /Linear Regression
 img: assets/img/ubc_campus/ubc_okanagan-aerial-1.jpg
-importance: 5
+importance: 6
 category: work
 related_publications: false
 ---
