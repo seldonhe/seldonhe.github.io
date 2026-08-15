@@ -1,7 +1,7 @@
 ---
 layout: page
 title: From Inclusion to Innovation - A Hybrid, Engaged and Digitalized BCPS
-description: People Analytics /Strategetic Thinking /Decision Making
+description: People Analytics /Strategic Thinking /Decision Making
 img: assets/img/ubc_campus/ubc_irshdc.jpg
 importance: 6
 category: work
@@ -34,7 +34,7 @@ related_publications: false
 
 <h2>Case Analysis</h2>
 
-<h4>Key Issues and Motivation</h4>
+<h3>Key Issues and Motivation</h3>
 <p>
 We began by highlighting the crucial issues stemming from internal and external environments. These issues included increasing turnover rate, leadership gap, lack of digitalized talents, and decreasing engagement. The core values and vision were introduced as driving forces for the proposed transitions.</p>
 
@@ -49,7 +49,7 @@ We began by highlighting the crucial issues stemming from internal and external 
     </div>
 </div>
 
-<h4>Equity, Diversity, and Inclusion</h4>
+<h3>Equity, Diversity, and Inclusion</h3>
 <p>To facilitate sustainable development, we emphasized a commitment to equity, diversity, and inclusion as guiding principles. The focus was on equal opportunities for individual development, diversifying talent pools, and improving employee well-being and satisfaction.</p>
 
 <div class="row">
@@ -64,7 +64,7 @@ We began by highlighting the crucial issues stemming from internal and external 
     </div>
 </div>
 
-<h4>Strengths and Challenges</h4>
+<h3>Strengths and Challenges</h3>
 <p>Strengths of BCPS were acknowledged, including its lean operation, clear core values, and proactive adoption of flexible work arrangements. However, challenges like turnover rates, economic limitations, and technological advancements posed significant hurdles.</p>
 
 <div class="row">

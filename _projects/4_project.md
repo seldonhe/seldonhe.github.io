@@ -61,9 +61,9 @@ related_publications: false
 <h2>Dashboard</h2>
 </div>
 
-<p>For an interactive Dashboard, please refer to <a href="https://lookerstudio.google.com/reporting/cfba91e9-89ae-487d-b955-9ef53013fd43/page/p_viqvel4red">Google Looker Studio</a>.Please allow third-party cookies to display the dashboard.</p>
+<p>For the interactive dashboard, visit <a href="https://lookerstudio.google.com/reporting/cfba91e9-89ae-487d-b955-9ef53013fd43/page/p_viqvel4red">Google Looker Studio</a>. Please allow third-party cookies to display the embedded dashboard.</p>
 
-<iframe width="800" height="640" src="https://lookerstudio.google.com/embed/reporting/e0625605-c992-4ddf-ad21-70a7490017f5/page/p_viqvel4red" frameborder="5" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<iframe class="project-embed" height="640" title="NYPD motor vehicle collision analysis dashboard" src="https://lookerstudio.google.com/embed/reporting/e0625605-c992-4ddf-ad21-70a7490017f5/page/p_viqvel4red" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 <div class="container-fluid mt-3 md-3">
 

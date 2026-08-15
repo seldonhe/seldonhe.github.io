@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: Business and data analytics professional specializing in financial planning, risk management, and decision support.
 subtitle: >
   <a href="https://www.linkedin.com/in/seldon-he/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp;|&nbsp;
   <a href="https://github.com/seldonhe" target="_blank"><i class="fab fa-github"></i> GitHub</a> &nbsp;|&nbsp;
@@ -12,8 +13,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p><i class="fas fa-envelope"></i> Seldon.He@ubc.ca</p>
-    <p><i class="fas fa-university"></i> University of British Columbia</p>
+    <p><i class="fas fa-envelope"></i> Seldon.He@gmail.com</p>
     <p><i class="fas fa-map-marker-alt"></i> Vancouver, BC Canada</p>
 
 news: false
@@ -22,7 +22,7 @@ selected_papers: false
 social: false
 ---
 
-As a **quick learner**, adept **team player**, and dynamic **problem solver** with responsible leadership, I possess a robust analytical acumen rooted in five years of varied professional experience across data analytics, risk management, forensics and integrity, financial assurance and advisory. Furthermore, my dedication to **equity, diversity, and inclusion** extends beyond the workplace, reflecting my commitment to engaging with the community positively and fostering sustainability.
+As a **quick learner**, adept **team player**, and dynamic **problem solver** with responsible leadership, I possess a robust analytical acumen rooted in seven years of varied professional experience across data analytics, risk management, forensics and integrity, financial assurance and advisory. Furthermore, my dedication to **equity, diversity, and inclusion** extends beyond the workplace, reflecting my commitment to engaging with the community positively and fostering sustainability.
 
 ---
 
@@ -31,7 +31,7 @@ As a **quick learner**, adept **team player**, and dynamic **problem solver** wi
 <div class="skills-container">
 
   <div class="skill-category">
-    <h4><i class="fas fa-chart-line"></i> Analytics & Visualization</h4>
+    <h3><i class="fas fa-chart-line"></i> Analytics & Visualization</h3>
     <div class="skills-tags">
       <span class="skill-tag expert">Tableau</span>
       <span class="skill-tag expert">Power BI</span>
@@ -50,13 +50,14 @@ As a **quick learner**, adept **team player**, and dynamic **problem solver** wi
   </div>
 
   <div class="skill-category">
-    <h4><i class="fas fa-code"></i> Programming & Database</h4>
+    <h3><i class="fas fa-code"></i> Programming & Database</h3>
     <div class="skills-tags">
       <span class="skill-tag expert">Python</span>
       <span class="skill-tag advanced">R</span>
       <span class="skill-tag advanced">SQL</span>
       <span class="skill-tag intermediate">MongoDB</span>
       <span class="skill-tag intermediate">HTML/CSS</span>
+      <span class="skill-tag advanced">Vibe Coding</span>
     </div>
     <div class="skills-tags">
       <span class="skill-tag">pandas</span>
@@ -70,13 +71,16 @@ As a **quick learner**, adept **team player**, and dynamic **problem solver** wi
   </div>
 
   <div class="skill-category">
-    <h4><i class="fas fa-shield-alt"></i> Finance & Risk</h4>
+    <h3><i class="fas fa-shield-alt"></i> Finance & Risk</h3>
     <div class="skills-tags">
       <span class="skill-tag cert">FRM Part I</span>
       <span class="skill-tag cert">CISA</span>
       <span class="skill-tag cert">CICPA</span>
       <span class="skill-tag advanced">Financial Modeling</span>
+      <span class="skill-tag advanced">FP&A</span>
       <span class="skill-tag advanced">Risk Management</span>
+      <span class="skill-tag">Audit</span>
+      <span class="skill-tag">Compliance</span>
     </div>
     <div class="skills-tags">
       <span class="skill-tag">DCF</span>
@@ -98,7 +102,7 @@ As a **quick learner**, adept **team player**, and dynamic **problem solver** wi
   margin-bottom: 1.5rem;
 }
 
-.skill-category h4 {
+.skill-category h3 {
   color: var(--global-theme-color);
   font-size: 1rem;
   margin-bottom: 0.75rem;
@@ -137,15 +141,15 @@ As a **quick learner**, adept **team player**, and dynamic **problem solver** wi
 }
 
 .skill-tag.advanced {
-  background: rgba(var(--global-theme-color-rgb), 0.8);
+  background: var(--global-theme-color);
   color: white;
-  border-color: rgba(var(--global-theme-color-rgb), 0.8);
+  border-color: var(--global-theme-color);
 }
 
 .skill-tag.intermediate {
-  background: rgba(var(--global-theme-color-rgb), 0.4);
+  background: var(--global-bg-color);
   color: var(--global-text-color);
-  border-color: rgba(var(--global-theme-color-rgb), 0.4);
+  border-color: var(--global-theme-color);
 }
 
 .skill-tag.cert {

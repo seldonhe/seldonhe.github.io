@@ -40,6 +40,9 @@
 </title>
 <meta name="author" content="{{ author_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+{% endif %}
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
@@ -52,23 +55,24 @@
 {% endif %}
 
 {% if site.serve_og_meta %}
+  {% assign share_image = page.og_image | default: page.img | default: site.og_image %}
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+  {% if share_image %}
+    <meta property="og:image" content="{{ share_image | absolute_url }}">
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
   <!-- Twitter card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+  {% if share_image %}
+    <meta name="twitter:image" content="{{ share_image | absolute_url }}">
   {% endif %}
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">
@@ -222,20 +226,18 @@
 
   <script type="application/ld+json">
     {
+        "@context": "https://schema.org",
+        "@type": "{% if page.url == '/' %}ProfilePage{% else %}WebPage{% endif %}",
+        "url": {{ page.url | absolute_url | jsonify }},
+        "name": {{ page.title | default: site.title | jsonify }},
+        "headline": {{ page.title | default: site.title | jsonify }},
+        "description": {{ page.description | default: site.description | strip_newlines | jsonify }},
         "author":
         {
             "@type": "Person",
-            "name": "{{ author_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+            "name": {{ author_name | jsonify }}{% if sameaslinks != blank %},
+            "sameAs": {{ sameaslinks }}{% endif %}
+        }
     }
   </script>
 {% endif %}
