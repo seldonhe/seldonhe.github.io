@@ -3,7 +3,7 @@ layout: page
 title: From Inclusion to Innovation - A Hybrid, Engaged and Digitalized BCPS
 description: People Analytics /Strategic Thinking /Decision Making
 img: assets/img/ubc_campus/ubc_irshdc.jpg
-importance: 7
+importance: 8
 category: work
 related_publications: false
 ---
