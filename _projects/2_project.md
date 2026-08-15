@@ -3,6 +3,7 @@ layout: page
 title: Data-Driven Marketing Analysis for Social Buzz
 description: Data Visualization /Marketing
 img: assets/img/ubc_campus/ubc_snowball-fight.jpg
+github: https://github.com/seldonhe/Data-Driven-Marketing-SocialBuzz
 importance: 3
 category: work
 related_publications: false
@@ -63,7 +64,7 @@ related_publications: false
 <h2>Codes</h2>
 </div>
 
-<iframe width="800" height="720" src="https://nbviewer.org/github/seldonhe/Data-Driven-Marketing-SocialBuzz/blob/e939276ba036dad701cb6952dccdedb72971b192/Capstone%20Project%20Jupyter%20Notebook.ipynb" frameborder="5" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<iframe class="project-embed" height="720" title="Social Buzz marketing analysis notebook" src="https://nbviewer.org/github/seldonhe/Data-Driven-Marketing-SocialBuzz/blob/e939276ba036dad701cb6952dccdedb72971b192/Capstone%20Project%20Jupyter%20Notebook.ipynb" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 <div class="container-fluid mt-3 md-3">
 
@@ -80,6 +81,6 @@ related_publications: false
         <div class="col-sm-4">
         <a href = "https://www.linkedin.com/in/yiwenxu1999/">Yiwen Xu</a></div>
         <div class="col-sm-4">
-        <a href = "">Nina Wu</a></div>
+        Nina Wu</div>
     </div>
 </div>

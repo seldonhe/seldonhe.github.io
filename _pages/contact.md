@@ -9,14 +9,12 @@ nav_order: 4
 
 ## Contact Me
 
-I'm always open to discussing data analytics, risk management, or potential collaborations.
+I'm always open to discussing financial and data analytics, risk management, or potential collaborations.
 
-**Email:** [Seldon.He@ubc.ca](mailto:Seldon.He@ubc.ca)
+**Email:** [Seldon.He@gmail.com](mailto:Seldon.He@gmail.com)
 
 **Location:**  
-University of British Columbia  
-2111 Lower Mall, Vancouver  
-BC Canada, V6T 1Z4
+Vancouver, BC, Canada
 
 **Connect:**
 - [LinkedIn](https://www.linkedin.com/in/seldon-he/)

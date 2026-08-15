@@ -5,6 +5,8 @@ title: publications
 description: Publications and research work will be added here.
 nav: false
 nav_order: 2
+published: false
+sitemap: false
 ---
 
 <!-- Publications page - placeholder for future content -->

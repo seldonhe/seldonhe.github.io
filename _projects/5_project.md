@@ -64,7 +64,7 @@ legend("topleft", legend= c("Actual", "Forecasts"),
 <h2>Models and Codes</h2>
 </div>
 
-<h4>STL Decomposition</h4>
+<h3>STL Decomposition</h3>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -79,7 +79,7 @@ Plots of the electricity use data and STL decomposition
 </div>
 
 
-<h4>Linear Model</h4>
+<h3>Linear Model</h3>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -121,7 +121,7 @@ lines(fitted(energy.lm), type='l', col='red')
 {% endraw %}
 
 
-<h4>Exponential Smoothing (ETS) Model</h4>
+<h3>Exponential Smoothing (ETS) Model</h3>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -161,7 +161,7 @@ checkresiduals(energy.maa)
 {% endraw %}
 
 
-<h4>ARIMA Model</h4>
+<h3>ARIMA Model</h3>
 
 {% raw %}
 
@@ -194,7 +194,7 @@ checkresiduals(energy.arima)
 
 {% endraw %}
 
-<h4>Model Comparison</h4>
+<h3>Model Comparison</h3>
 
 <p>
 The plot shows the actual recorded energy use (black line) and the forecasts from different methods. The ETS and ARIMA models (purple and green lines) are closely tracking the actual energy use, particularly towards the latter years, while the basic methods (dotted lines) deviate significantly from the actual use.
