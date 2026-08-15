@@ -3,7 +3,7 @@ layout: page
 title: Google Hackathon Challenge - Insights from NYPD Motor Vehicle Collisions
 description: Data Visualization /Analytics /Machine Learning /Time Series Analysis
 img: assets/img/project_img/Hackathon/0000.png
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
